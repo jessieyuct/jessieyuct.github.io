@@ -117,6 +117,7 @@ img {
 
 .date {
   font-style: italic;
+  letter-spacing: 1px;
   font-size: 12px;
   color: $gray;
 }
@@ -152,7 +153,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .masthead {
@@ -197,14 +198,15 @@ img {
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 200;
-  font-size: 26px;
+  font-size: 24px;
   letter-spacing: 1.2px;
 }
 
 .site-description {
-  margin: -5px 0 0 0;
+  margin: 0 0 0 0;
   color: $gray;
   font-size: 14px;
+  font-weight: 200;
 
   @include mobile {
     margin: 3px 0;
