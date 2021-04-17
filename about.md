@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Just figuring everything out through balancing stubbornness and curiousity.
 
-### More Information
+This might be the entry point of you knowing me, but I always prefer we meet in person and grab a coffee.
 
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+- [jessieyuct@gmail.com](mailto:jessieyuct@gmail.com)
