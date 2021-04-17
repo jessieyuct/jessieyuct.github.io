@@ -10,5 +10,4 @@ This might be the entry point of you knowing me, but I always prefer we meet in 
 
 
 ### Contact me
-
-- [jessieyuct@gmail.com](mailto:jessieyuct@gmail.com)
+[jessieyuct@gmail.com](mailto:jessieyuct@gmail.com)
