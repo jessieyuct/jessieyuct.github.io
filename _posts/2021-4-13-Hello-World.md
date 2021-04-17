@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Mar 31, 2021
-tags: [web]
+tags:
+- test1
+- test2
 ---
 
 ## Test text
