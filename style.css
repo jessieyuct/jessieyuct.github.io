@@ -13,6 +13,7 @@
 body {
   font-family: var(--font-family);
   background-color: var(--color-bg);
+  margin: 2rem;
 }
 
 
