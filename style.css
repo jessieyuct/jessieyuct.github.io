@@ -3,8 +3,8 @@
   --color-text-main: #000000;
   --color-primary: #c1e4e9;
   --image-max-width: 320px;
-  --font-family: "Noto Sans";
-  --font-family-header: "Noto Sans";
+  --font-family: "Nunito";
+  --font-family-header: "Nunito";
 }
 
   
@@ -109,7 +109,8 @@ a:hover {
   top: 0; /* Stay at the top */
   right: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 2rem;
+  padding-top: 3rem;
+  font-size: 0.8rem
 }
 
 /* The navigation menu links */
