@@ -110,6 +110,7 @@ a:hover {
   right: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 3rem;
+  padding-right: 2rem;
   font-size: 0.8rem
 }
 
