@@ -111,7 +111,7 @@ a:hover {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 3rem;
   padding-right: 2rem;
-  font-size: 0.8rem
+  font-size: 0.8rem;
 }
 
 /* The navigation menu links */
@@ -121,9 +121,11 @@ a:hover {
 }
 
 /* When you mouse over the navigation links, change their color */
+.sidenav a:visited {
+  transition: background 0.2s linear;
+}
 .sidenav a:hover {
   background: var(--color-primary);
-  transition: background 0.2s linear;
 }
 
 /* Style page content */
