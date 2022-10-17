@@ -11,7 +11,7 @@
  display: flex;
   width: 100%;
   flex-wrap: wrap;
-  margin: 1.5rem auto 1.5rem 1.5rem;
+  margin: 1.5rem auto 4rem 1.5rem;
   padding: 0;
   overflow: hidden;
   background: var(--color-bg)
@@ -21,9 +21,7 @@
   padding: 0 0.5rem;
 }
 
-.body{
-  margin:2rem;
-}
+
 
 
 a:link,
@@ -32,7 +30,6 @@ a:visited {
   border-bottom: 2px solid var(--color-primary);
   color: var(--foreground);
   transition: background 0.2s linear;
-  font-family: var(--font-family);
 }
 a:hover {
   background: var(--color-primary);
@@ -42,7 +39,6 @@ p {
   margin: 0 0 1rem 0;
   line-height: 1.5 !important;
   font-size: 1rem;
-  font-family: var(--font-family), "Open Sans";
 }
 h1,
 h2,
@@ -82,14 +78,15 @@ ol > li {
   margin-bottom: 0rem;
   line-height: 1.5;
   font-size: 1rem;
+  list-style:inherit;
 }
 ul {
   padding: 0 0 0 18px;
   margin: 0;
 }
-/*.no-bullet {
+ul.no-bullet {
   list-style-type: none;
-}*/
+}
   
 
 
@@ -108,7 +105,7 @@ html {
 /* 2. Make nav sticky */
 main > nav {
 	position: sticky;
-	top: 5rem;
+	top: 8rem;
 	align-self: start;
 }
 
@@ -119,24 +116,20 @@ main > nav {
 
 /* Sidebar Navigation */
 .section-nav {
-	padding: 0;
-	border-left: 1px solid var(--color-primary);
+	margin: 0 0 0 3rem;
+  padding: 0;
+	border-left: none;
 }
 
 .section-nav a {
-	line-height:1.8;
+	line-height:2;
   display: block;
 	padding: 0;
-  margin: 0;
+  margin: 0 0 0 1rem;
 	color: #ccc;
 	transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
 }
 
-.section-nav ul,ol,li{
-  list-style: none;
-  margin: 0 0 0 .5rem;
-	padding: 0 !important;
-}
 .section-nav a:hover,
 .section-nav a:focus {
 	color: #666;
@@ -151,24 +144,31 @@ main > nav {
 /** page layout **/
 main {
 	display: grid;
-	grid-template-columns: 1fr 15em;
+	grid-template-columns: 1fr auto;
 	max-width: 100em;
-	width: 90%;
+	width: 70%;
 	margin: 0 auto;
 }
 
 /** enlarge the sections for this demo, so that we have a long scrollable page **/
 section {
-	padding-bottom: 2rem;
+	padding-bottom: 0rem;
 }
 
-
-
 .footer{
-  border-top: 0px solid #ccc;
+  border-top: none;
   max-width:100%;
   text-align: center;
-  margin: 2rem 0 1rem 0;
+  margin: 3rem 0 1.5rem 0;
   font-color: #ccc;
   font-size: .8rem;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 3em 0 1.5em 0;
+    padding:0;
 }
