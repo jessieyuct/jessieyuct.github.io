@@ -15,7 +15,6 @@
   padding: 0;
   overflow: hidden;
   background: var(--color-bg);
-  font-family: var(--font-family);
 }
 
 .divider{
@@ -83,7 +82,7 @@ ol > li {
   line-height: 1.5;
   font-size: 1rem;
   list-style:inherit;
-  font-family: var(--font-family);
+  font-family: var(--font-family-header);
 }
 ul {
   padding: 0 0 0 18px;
@@ -124,7 +123,6 @@ main > nav {
 	margin: 0 0 0 3rem;
         padding: 0;
 	border-left: none;
-	font-family: var(--font-family);
 }
 
 .section-nav a {
@@ -133,6 +131,7 @@ main > nav {
 	padding: 0;
   margin: 0 0 0 1rem;
 	color: #ccc;
+	font-family: var(--font-family-header);
 	transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
 }
 
@@ -154,7 +153,6 @@ main {
 	max-width: 100em;
 	width: 70%;
 	margin: 0 auto;
-	font-family: var(--font-family);
 }
 
 /** enlarge the sections for this demo, so that we have a long scrollable page **/
@@ -168,7 +166,7 @@ section {
   text-align: center;
   margin: 3rem 0 1.5rem 0;
   font-size: .8rem;
-  font-family: var(--font-family);
+  font-family: var(--font-family-header);
 }
 
 hr {
