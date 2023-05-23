@@ -37,7 +37,7 @@ div#panel {
 
 h1 {
   font-weight: 200;
-  font-size: 20px;
+  font-size: 1vw;
   line-height: 2;
   padding-left: 35px;
   margin-top: 200px;
@@ -53,7 +53,7 @@ h1 span {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 1vw;
   line-height: 1.25;
   font-weight: 200;
   padding-left: 35px;
@@ -115,13 +115,13 @@ a:hover {
 @media (max-width: 760px){
   h1 {
     font-weight: 400;
-    font-size: 3vw;
+    font-size: 2vw;
     line-height: 1;
     padding-left: 30px;
     margin-top: 150px;
   }
   h2 {
-    font-size: 2vw;
+    font-size: 1vw;
     padding-left: 30px;
   }
   img.bomb {
@@ -136,13 +136,13 @@ a:hover {
 @media (min-width: 1300px){
   h1 {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 30px;
     line-height: 1;
     padding-left: 30px;
     margin-top: 50px;
   }
   h2 {
-    font-size: 35px;
+    font-size: 20px;
     padding-left: 30px;
   }
   img.bomb {
@@ -157,13 +157,13 @@ a:hover {
 @media (max-height: 414px){
   h1 {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 30px;
     line-height: 1;
     padding-left: 30px;
     margin-top: 100px;
   }
   h2 {
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 30px;
   }
   img.bomb {
@@ -181,7 +181,7 @@ a:hover {
 @media (max-height: 214px){
   h1 {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1;
     padding-left: 30px;
     margin-top: 60px;
